@@ -1,0 +1,89 @@
+<html>
+    <head>
+
+    </head>
+    <style>
+        body{
+            background-image:url(background\ image1-modified.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #box1 , #box2 , #box3 ,#box4, #box5, #box6{
+             display: inline-block;
+             padding: 30px;
+             text-align: center;
+             background-color: aliceblue;
+             margin: 5px;
+             border-color: black;
+             border-style: solid;
+        }
+        #box1:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        #box2:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        #box3:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        #box4:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        #box5:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        #box6:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+
+        #box1::before {
+        content: '';
+        display: block;
+        transition: transform 0.3s ease; 
+        }
+    
+    </style>
+
+    <body>
+
+    <div>
+        <div id="box1">
+          <img src="contentimg1.jpg" width="300px" height="300px">
+          <p style="font-family: 'Times New Roman', Times, serif;">Swizerland</p>
+          <p style="font-family: 'Times New Roman', Times, serif;">Appprox. $500</p>
+        </div>
+        <div id="box2">
+          <img src="contentimg2.jpg"width="300px" height="300px">
+          <p style="font-family: 'Times New Roman', Times, serif;">London</p>
+          <p style="font-family: 'Times New Roman', Times, serif;">Appprox. $1000</p>
+        </div>
+        <div id="box3">
+          <img src="contentimg3.jpg"width="300px" height="300px">
+          <p style="font-family: 'Times New Roman', Times, serif;">Paris</p>
+          <p style="font-family: 'Times New Roman', Times, serif;">Appprox. $1200</p>
+        </div>
+        <div id="box4">
+            <img src="contentimg5.jpg"width="300px" height="300px">
+            <p style="font-family: 'Times New Roman', Times, serif;">Thailand</p>
+            <p style="font-family: 'Times New Roman', Times, serif;">Appprox. $400</p>
+          </div>
+          <div id="box5">
+            <img src="contentimg4.jpg"width="300px" height="300px">
+            <p style="font-family: 'Times New Roman', Times, serif;">India</p>
+            <p style="font-family: 'Times New Roman', Times, serif;">Appprox. $200</p>
+          </div>
+          <div id="box6">
+            <img src="contentimg6.jpg"width="300px" height="300px">
+            <p style="font-family: 'Times New Roman', Times, serif;">Jammu and Kashmir</p>
+            <p style="font-family: 'Times New Roman', Times, serif;">Appprox. $250</p>
+          </div>
+    </div>
+    </body>
+</html>
+    
